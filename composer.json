@@ -1,17 +1,17 @@
 {
-  "name": "lemonway/php-sdk",
+  "name": "lemonway/php-rest-sdk",
   "description": "PHP SDK for Lemon Way API",
   "type": "library",
   "keywords": ["Lemon Way","LemonWay","wallet","payment","marketplace"],
-  "homepage": "https://github.com/lemonwaysas/php-client-directkit-xml",
+  "homepage": "https://github.com/Dadapas/php-lemonway-rest-sdk.git",
   "minimum-stability": "stable",
   "license": "MIT",
   "require": {
-    "php": ">=5.4.0",
-    "ext-curl": "*",
-    "ext-openssl": "*"
+    "php": ">=8.0.0",
+    "guzzlehttp/guzzle": "^7.5.0",
+    "psr/simple-cache": "^2.0.0"
   },
   "autoload": {
-    "psr-4": { "LemonWay\\": "LemonWay/" }
+    "psr-4": { "LemonWay\\": "src/" }
   }
 }
