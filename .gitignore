@@ -1,5 +1,5 @@
 *.iml
 .idea
-vendor
+vendor/
 composer.lock
 composer.phar
